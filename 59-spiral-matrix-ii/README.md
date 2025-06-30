@@ -21,3 +21,4 @@
 <ul>
 	<li><code>1 &lt;= n &lt;= 20</code></li>
 </ul>
+<p>So I just make a mistake while traversing the array through left to right instead of using top in the initializing value , in the first loop i used left  which keep incrementing after each iteration giving wrong value which I figured out pretty quickly</p>
