@@ -35,3 +35,4 @@
 	<li>A simple improvement uses <code>O(m + n)</code> space, but still not the best solution.</li>
 	<li>Could you devise a constant space solution?</li>
 </ul>
+<p>I made a mistake where instead of flagging the rows and columns I just stored the row no and column no which work if the row and column has only one zero but if it has multiple zeros it won't convert the multiple rows and columns to 0 .So I figured it out after brainstorming and looking at other people's solution</p>
