@@ -5,8 +5,8 @@ class Solution {
         for(int i=0;i<a.length;i++){
             String rev=" ";
             char[] ch=a[i].toCharArray();
-            for(int j=0;j<ch.length;j++){
-                rev=ch[j]+rev;
+            for(int j=ch.length-1;j>=0;j--){
+                rev+=ch[j];
             }
             res+=rev;
         }
